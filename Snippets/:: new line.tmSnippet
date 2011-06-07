@@ -6,7 +6,7 @@
 	<string>
 // $0</string>
 	<key>keyEquivalent</key>
-	<string>@</string>
+	<string>^@</string>
 	<key>name</key>
 	<string>// new line</string>
 	<key>scope</key>
