@@ -5,9 +5,8 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby
-require  ENV['TM_BUNDLE_SUPPORT'] + '/bin/scroller'
-scroller('substract', 1)</string>
+	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
+"${TM_RUBY:=ruby}" "${TM_BUNDLE_SUPPORT}/bin/scroller.rb" -1</string>
 	<key>fallbackInput</key>
 	<string>word</string>
 	<key>input</key>
