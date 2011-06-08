@@ -27,20 +27,16 @@
 				<string>]</string>
 			</array>
 			<array>
-				<string>&lt;</string>
-				<string>&gt;</string>
+				<string>“</string>
+				<string>”</string>
 			</array>
 			<array>
 				<string>'</string>
 				<string>'</string>
 			</array>
 			<array>
-				<string>:</string>
-				<string>;</string>
-			</array>
-			<array>
-				<string>/*</string>
-				<string>*/</string>
+				<string>`</string>
+				<string>`</string>
 			</array>
 		</array>
 	</dict>
